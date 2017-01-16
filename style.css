@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('OpenSans-Light-webfont.eot');
+    src: url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Light-webfont.woff') format('woff'),
+         url('OpenSans-Light-webfont.ttf') format('truetype'),
+         url('OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar {
+  margin: auto;
+  background-color: rgb(13,8,64);
+  opacity: 0.9;
+  color: white;
+  font-size: 16px;
+}
+.navbar-brand{
+  color: white !important;
+  }
+li a{
+  color: white !important;
+  }
+
+body{
+  text-align: center;
+  color: white;
+  position: relative;
+}
+#about{
+  padding: 140px 0px 130px 0px;
+  color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-image: url( "http://www.komando.com/wp-content/uploads/2014/12/shutterstock_234693100-970x546.jpg")
+}
+#portfolio{
+  height: auto;
+  /* padding-bottom: 300px; */
+  color: black;
+  font-size: 16px;
+}
+
+.thumbnail {
+  border: 1px solid black;
+  width: 27%;
+  float: left;
+  box-sizing: border-box;
+  align-self: stretch;
+
+}
+
+h1{
+  margin-bottom: 100px;
+  font-size: 48px;
+  font-family: "OpenSans-Light" sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ #lunchpad{
+  height: 184px;
+  width: auto;
+}
+#bob{
+  height: 184px;
+  width: auto;
+}
+#construction_worker{
+  height: 184px;
+  width: auto;
+}
+#contact{
+  padding: 10px 0px 50px 0px;
+  background-color: rgb(13,8,64);
+}
+h4{
+  padding-bottom: 50px;
+}
+#droits {
+  font-size: 12px;
+  color: grey;
+  background-color: rgb(13,8,64);
+  padding: 50px 0px 0px 0px;
+}
+.share-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.share-link {
+  flex: 0 0 24%;
+  color: white;
+  font-size: 28px;
+  padding: 10px 2;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  &:hover {
+    color: white;
+  }
+}
+.bg-github {
+  background: black;
+}
+.bg-email {
+  background: #aeaeae;
+}
+.bg-twitter {
+  background: #00a3e1;
+}
+
+
